@@ -1,9 +1,6 @@
-
 import { Instagram, Phone, MessageSquare } from "lucide-react";
-
 export const Footer = () => {
-  return (
-    <footer id="contato" className="bg-gray-900 text-white py-16">
+  return <footer id="contato" className="bg-gray-900 text-white py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-2">
@@ -58,11 +55,8 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400">
-            © 2024 Vira Inteligência Empresarial. Todos os direitos reservados.
-          </p>
+          <p className="text-gray-400">© 2025 Vira Inteligência Empresarial. Todos os direitos reservados.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
